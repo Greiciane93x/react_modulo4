@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Fredericka+the+Great&display=swap');
+.App-header{
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  display: flex;
+  background-color: darkkhaki;
+  justify-content: space-around;
+  transition: 3s 0.5 linear;
+
+}
+
+.container {
+  font-family: 'Crimson Text', serif;
+  display: grid;
+  margin-left: 800px;
+  margin-top:50px;
+
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.rodape {
+  position:absolute;
+  background-color: darkkhaki;
+  bottom:0;
+  height: 50px;
+  width:100%;
+
+}
+p{
+  font-weight: bold;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  
+}
