@@ -4,10 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
+a {
+  text-decoration: none;
+  color: inherit;
+ } 
+.imagemTema{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 90vh;
+  opacity: 0.8;
+
+}
+
 .header{
  
   display: flex;
-  /* display: grid; */
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 10px;
   background-color: darkkhaki;
@@ -22,16 +35,15 @@
 }
 #geral{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 32px;
-  margin-top: 10px;
+  font-size: 52px;
 
 }
 .container {
   display: grid;
+  margin-top: 15vh;
+  margin-left: 15vh;
   grid-template-columns: repeat(2, 2fr);
   font-family: 'Crimson Text', serif;
-  margin-top: 150px;
-  margin-left: 300px;
   grid-template-columns: repeat(2, 2fr);
 }
 input[type=text] {
@@ -60,6 +72,8 @@ textarea{
   width:100%;
 
 }
+
+
 p{
   font-weight: bold;
   font-family: 'Crimson Text', serif;

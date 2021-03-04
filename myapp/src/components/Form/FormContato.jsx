@@ -1,6 +1,7 @@
-
 import React, {Component} from 'react'
-import imgContato from '../../img/contato.jpg'
+import imgContato from '../../img/contato.jpg' 
+
+
 
 class Form extends Component {
     render(){
