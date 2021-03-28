@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.imagemTema {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 90vh;
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  background-color: darkkhaki;
+  justify-content: space-around;
+}
+#bonsDrinks {
+  font-family: "Great Vibes", cursive;
+  font-size: 52px;
+}
+#bons-drinks-home {
+  margin-top: 220px;
+  color: tomato;
+  font-size: 150px;
+  text-shadow: 5px 5px black;
+  font-family: "Great Vibes", cursive;
+  position: relative;
+  opacity: 0.8;
+}
+#bons-drinks-home:hover {
+  color: white;
+  opacity: 0.8;
+}
+#geral {
+  margin-top: 20%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 52px;
+  text-shadow: 1px 1px white;
+}
+
+.container {
+  background-color: darkkhaki;
+  opacity: 0.8;
+  width: 70vh;
+  padding: 80px;
+  border-radius: 12px;
+  display: grid;
+  margin-top: 25vh;
+  margin-left: 50vh;
+  grid-template-columns: repeat(2, 2fr);
+  font-family: "Crimson Text", serif;
+  grid-template-columns: repeat(2, 2fr);
+}
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#rodape {
+  border-top: 1px solid #333;
+  color: white;
+  bottom: 0;
+  left: 80;
+  height: 40px;
+  position: fixed;
+  width: 80%;
+  margin-left: 100px;
+  text-shadow: 1px 1px black;
+}
+
+p {
+  font-weight: bold;
+  font-family: "Crimson Text", serif;
+  text-align: center;
+}
+#img-home {
+  opacity: 0.7;
+  width: 100%;
+  position: fixed;
+}
+#img-contato {
+  margin-left: -10px;
+  margin-top: 45px;
+  border-radius: 5px;
+}
+#foto {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+#descricao {
+  margin-left: -15%;
+}
+
+#linkedin {
+  width: 4%;
+  margin-left: 39%;
+}
+#github {
+  width: 4%;
+}
+.container-drinks {
+  display: inline-grid;
+  grid-template-columns: 600px 1fr 2fr;
+  grid-auto-rows: 100px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+#img-drink {
+  margin-top: 2%;
+  width: 30%;
+}
+#nome-drink {
+  display: flex;
+}
+.nossoTime {
+  margin-left: 45%;
+  width: 10%;
+}
